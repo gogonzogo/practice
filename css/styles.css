@@ -1,15 +1,17 @@
-pre {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    color: #2a2a2a;
-    font-size: 16px;
+
+
+.excerpt {
+    /* Sets the border */
+    border: 2px dashed #2196F3;
+
+    /* Adds an inner padding */
+    padding: 15px;
+
+    /* Sets outer margins */
+    margin: 20px;
 }
 
-pre::first-letter {
-    font-family: 'Tahoma', serif;
-    font-size: 32px;
-    color: #f44336;
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
 }
-
-pre::selection {
-    color: #ffffff;
-    background-color: #3f51b5;
